@@ -1,10 +1,15 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
+
+import { Loader, Card, FormField } from '../components';
 
 const Home = () => {
+  const [loading, setLoading] = useState(false);
+  const [allPosts, setAllPosts] = useState(null);
+
   return (
-    <div>
+    <section className="max-w-7xl ">
       
-    </div>
+    </section>
   )
 }
 
